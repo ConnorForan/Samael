@@ -1,0 +1,7 @@
+<items gfxroot="gfx/items/" version="1">
+  <passive description="Accuracy brings power!" gfx="Collectibles_373_DeadEye.png" name="Samael Dead Eye" />
+  <passive cache="all" description="Charge shots" gfx="Collectibles_069_ChocolateMilk.png" name="Samael Chocolate Milk" />
+  <passive cache="all" description="???" gfx="Collectibles_052_DrFetus.png" name="Samael Dr. Fetus" special="true" />
+  <passive cache="firedelay range" description="Directed tears" gfx="Collectibles_394_Marked.png" name="Samael Marked" />
+  <active description="Alternate Wraith Mode Activation" gfx="Collectibles_Samael_Wraith.png" maxcharges="110" name="Wraith Skull" />
+</items>

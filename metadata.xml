@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <name>Samael</name>
+    <directory>samael</directory>
+    <id>897795840</id>
+    <description>This mod adds a new character, Samael: the vengeful fallen angel of death.
+
+Attack enemies by slicing them with your scythe, or hold down a firing direction to charge up a ranged projectile. Having trouble getting close without taking damage? Charge up your Wraith Meter by dealing damage at range, and once its full hit Left Shift to activate Wraith Mode, giving you a brief period of invulnerability and faster melee attack rate to close in and deal some satisfying damage!
+
+Items that have a chance to inflict status ailments or similar effects also have a chance to occur when attacking enemies with your scythe. Items such as Brimstone and Tech X will override the default charged attack and behave normally, while still allowing you to use melee. Most items will synergize with Samael in some way, even if it is simple. Some items even have unique synergies with Samael (nothing too fancy though).
+
+[url=https://docs.google.com/spreadsheets/d/1ATZ_d5DBTAf_347hAosHOFjWwH2vM0xl9wfcNvg9d00/edit#gid=0]Click here for more information on Samael's item synergies and interactions[/url], or don't look if you'd rather find out for yourself!
+
+Please report any bugs, or things that you think are acting weird (for instance, if you feel like your current items cause the Wraith Meter to charge way too slow or too fast). I am also open to any suggestions you may have.
+
+[url=https://www.reddit.com/r/bindingofisaac/comments/6387tc/character_mod_release_samael/]Reddit Thread[/url]
+
+[url=https://moddingofisaac.com/mod/3068/samael]ModdingOfIsaac page[/url]
+
+CONTROLLER SUPPORT: The API does not currently support controller inputs directly. There are very few good solutions for this at the moment. However, if you're using a controller I have two options for you. The simpler option is to take the Wraith Skull active item that spawns at the start of a run, which allows you to use the same Wraith Mode functionality as an active item instead (except you also have to put up with the frequent beeping noises as it charges up. Sorry!).  Second option: Theres a variable at the top of main.lua, &quot;controllerMode = false&quot;. If you change &quot;false&quot; to &quot;true&quot;, then you can activate Wraith Mode with the same button that you use to drop/switch trinkets/cards/pills etc (This file is located at &quot;Documents\My Games\Binding of Isaac Afterbirth+ Mods\Samael\main.lua&quot; once the mod is installed). The API doesnt let you map controller keys, so the only way for it to work on a controller is to map an ACTION like this, but I dont want it to be on by default. Sorry for the hassle, hopefully the API will be improved.
+
+NOTES ON CHARACTER MODS: Characters are added to the main menu with an animation, and may not appear when their mods are first enabled (due to the animations for the main menu already being loaded). Simply start a run as a different character and then return to the main menu and the new character should appear. Also, sometimes disabling a character mod (or mods altogether) will crash the game. (This may also be related to animations? Not sure. It doesnt always crash.) If this happens, go into the mod's folder (the place with main.lua inside, in &quot;Documents\My Games\Binding of Isaac Afterbirth+ Mods\*MODNAME*&quot; and manually add a file called &quot;disable.it&quot;.
+
+
+!----UPDATE: MAY 4th 2017----!
+- Revamped the way the wraith meter charges up. It shouldnt be able to charge insanely fast anymore, and may be slightly more balanced in general, but it is very hard to take all situations into account in a game like this.
+
+- Added the Wraith Skull active item. It will spawn at the start of the run. Taking it allows you to use Wraith Mode as an active item instead of using Left-Shift. This can be useful for controllers if the old controller support was too convoluted.</description>
+    <version>1.9</version>
+    <visibility>Public</visibility>
+    <tag id="Player Characters"/>
+</metadata>
